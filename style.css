@@ -1,0 +1,251 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 0px;
+    background-color: #004080;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero {
+    background-color: #002060;
+}
+
+.hero-container {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    line-height: 1;
+    padding: 50px 40px;
+}
+
+.hero-container h1 {
+    font-size: 46px;
+}
+
+.hero-container p {
+    font-size: 22px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.hero-container a {
+    background-color: #ff9922;
+    color: #000000;
+    padding: 15px 30px;
+    margin-top: 25px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+.hero-container a:hover {
+    background-color: #ee6600;
+    color: #ffffff;
+}
+
+.about-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.about-content p {
+    text-align: justify;
+    font-size: large;
+    margin: 5px;
+}
+
+.service,
+.testimonials,
+.contact,
+.advantages-container {
+    background-color: #f4f4f4;
+}
+
+.portfolio, .testimonials-item {
+    background-color: #ffffff;
+}
+
+.service,
+.portfolio,
+.testimonials,
+.advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-content h2,
+.service h2,
+.portfolio h2,
+.testimonials h2,
+.advantages h2 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.service-container,
+.portfolio-container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.service-item {
+    background-color: #ffffff;
+    width: 25%;
+    min-width: 150px;
+}
+
+.portfolio-item {
+    background-color: #f4f4f4;
+    width: 26%;
+    min-height: 250px;
+}
+
+.service-item,
+.portfolio-item {
+    min-width: 180px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.service-item h3,
+.portfolio-item h3 {
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 0px 0px 10px 0px;
+}
+
+.service-item p,
+.portfolio-item p {
+    font-size: 1rem;
+    color: #333333;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.testimonials-item {
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.testimony {
+    font-style: italic;
+    color: #444444;
+}
+
+.author {
+    color: #000000;
+    font-weight: bold;
+}
+
+.advantages h2 {
+    width: 95%;
+    text-align: center;
+}
+
+.advantages-container {
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.contact {
+    gap: 10px;
+    color: #000000;
+}
+
+.contact-detail, .contact-budget {
+    width: 45%;
+    min-width: 330px;
+    margin-bottom: 60px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact div p {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+#form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#form input,
+#form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+#form button {
+    padding: 15px;
+    margin-top: 12px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#form button:hover {
+    background-color: #0048dd;
+}
+/* Responsividade */
+/* @media (max-width: 768px) {
+    .project {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .project {
+        width: 100%;
+    }
+} */
