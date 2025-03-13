@@ -11,18 +11,18 @@ a {
     color: inherit;
 }
 
+header, main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 footer {
     color: #fff;
     padding: 20px;
     margin-bottom: 0px;
     background-color: #004080;
     text-align: center;
-}
-
-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .hero {
@@ -79,7 +79,6 @@ section {
 
 .service,
 .testimonials,
-.contact,
 .advantages-container {
     background-color: #f4f4f4;
 }
@@ -192,7 +191,7 @@ section {
     color: #000000;
 }
 
-.contact-detail, .contact-budget {
+.detail, .contact-budget {
     width: 45%;
     min-width: 330px;
     margin-bottom: 60px;
